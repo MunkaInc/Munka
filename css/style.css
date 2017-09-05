@@ -5,5 +5,38 @@
 }
 /* FIM Toda Pagina */
 
-/* Menu */
-/* FIM Menu */
+/* Banner */
+.banner-row {
+
+}
+/* FIM Banner */
+
+/* Sobre */
+.sobre-row {
+
+}
+/* Fim Sobre */
+
+/* Servico */
+.servico-bg {
+  background-color: #FAF2EC;
+  padding: 3rem;
+}
+/* FIM Servico */
+
+/* Cadastrar Row */
+.cadastrar-bg {
+  background-image: url("http://www.duoblindagens.com.br/wp-content/uploads/2014/12/cityscapes-night_00241654.jpg");
+  height: 300px;
+  margin-top: -1.3rem;
+}
+
+.cadastrar-btn {
+  border: 1px solid snow;
+  background-color: rgba(0,0,0,0);
+  color: snow;
+  font-family: Roboto;
+  margin-top: 6.5rem;
+}
+/* ToDo: Btn Hover */
+/* FIM Cadastrar Row */
