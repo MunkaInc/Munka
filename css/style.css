@@ -90,6 +90,17 @@ html {
 /* TODO: RESPONSIVE BOX */
 /* FIM Contato*/
 
+/* Cadastro */
+.box-cadastro {
+  display: inline-block; 
+  padding: 32px 48px 0px 48px; 
+  width: 40rem;
+  margin: 3.5rem;
+}
+
+/* TODO: RESPONSIVE BOX */
+/* FIM Cadastro*/
+
 /* Login */
 .logo-login {
   width: 325px;
