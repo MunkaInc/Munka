@@ -12,6 +12,10 @@ html {
   width: 150px;
   padding-top: 0.6rem;
 }
+
+.menu-all {
+  background-color: gray;
+}
 /* FIM Menu */
 /* FIM Todas as Paginas*/
 
@@ -74,6 +78,17 @@ html {
 }
 /* FIM Cadastrar Row */
 /* Fim Index */
+
+/* Contato */
+.box-contato {
+  display: inline-block; 
+  padding: 32px 48px 0px 48px; 
+  width: 40rem;
+  margin: 3.5rem;
+}
+
+/* TODO: RESPONSIVE BOX */
+/* FIM Contato*/
 
 /* Login */
 .logo-login {
