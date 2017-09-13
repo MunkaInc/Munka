@@ -16,6 +16,13 @@ html {
 .menu-all {
   background-color: gray;
 }
+
+.box-all {
+  display: inline-block; 
+  padding: 32px 48px 0px 48px; 
+  width: 40rem;
+  margin: 3.5rem;
+}
 /* FIM Menu */
 /* FIM Todas as Paginas*/
 
@@ -79,27 +86,18 @@ html {
 /* FIM Cadastrar Row */
 /* Fim Index */
 
-/* Contato */
-.box-contato {
-  display: inline-block; 
-  padding: 32px 48px 0px 48px; 
-  width: 40rem;
-  margin: 3.5rem;
+/* Perfil */
+
+.img-perfil {
+  width: 150px;
+}
+
+.nome-usuario {
+  font-weight: 100;
 }
 
 /* TODO: RESPONSIVE BOX */
-/* FIM Contato*/
-
-/* Cadastro */
-.box-cadastro {
-  display: inline-block; 
-  padding: 32px 48px 0px 48px; 
-  width: 40rem;
-  margin: 3.5rem;
-}
-
-/* TODO: RESPONSIVE BOX */
-/* FIM Cadastro*/
+/* FIM Perfil*/
 
 /* Login */
 .logo-login {
@@ -107,10 +105,7 @@ html {
 }
 
 .box-login {
-  display: inline-block; 
-  padding: 32px 48px 0px 48px; 
   width: 30rem;
-  margin: 3.5rem 0 0 0;
   background-color: #FFF;
 }
 
