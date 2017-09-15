@@ -47,95 +47,98 @@
 
   <!-- Conteudo -->
   <!-- Sub Menu -->
-  <div class="container center light blue">
-    <div class="row">
-      <div class="col s6">
-        <a class="waves-effect waves-teal btn-flat">Posts</a>
-      </div>
-
-      <div class="col s6">
-        <a class="waves-effect waves-teal btn-flat">Analytics</a>
-      </div>
-    </div>
-  </div>
-  <!-- END Sub Menu -->
-
-  <!-- Filtros -->
-  <div class="container center">
-    <div class="row">
-      <div class="form" method="post">
-        <div class="input-field col s6">
-          <select>
-            <option value="" disabled selected>Choose your option</option>
-            <option value="1">Option 1</option>
-            <option value="2">Option 2</option>
-            <option value="3">Option 3</option>
-          </select>
-          <label>Categoria</label>
+  <div class="dash-table">
+    <div class="container center light blue dash-sub">
+      <div class="row">
+        <div class="col s6 selected-sub">
+          <a href="#!" class="waves-effect waves-teal btn-flat">Posts</a>
         </div>
 
-        <div class="input-field col s6">
-          <select>
-            <option value="" disabled selected>Choose your option</option>
-            <option value="1">Option 1</option>
-            <option value="2">Option 2</option>
-            <option value="3">Option 3</option>
-          </select>
-          <label>Status</label>
+        <div class="col s6">
+          <a href="dash-adm2.html" class="waves-effect waves-teal btn-flat">Analytics</a>
         </div>
       </div>
     </div>
-  </div>
-  <!-- END Filtros -->
+    <!-- END Sub Menu -->
 
-  <!-- Tabela de Posts -->
-  <!-- Sub Menu 2 -->
-  <div class="container center light blue">
-    <div class="row">
-      <div class="col s6">
-        <a class="waves-effect waves-teal btn-flat">Todos os Posts</a>
-      </div>
+    <!-- Filtros -->
+    <div class="container center">
+      <div class="row">
+        <div class="form" method="post">
+          <div class="input-field col s6">
+            <select>
+              <option value="" disabled selected>Choose your option</option>
+              <option value="1">Option 1</option>
+              <option value="2">Option 2</option>
+              <option value="3">Option 3</option>
+            </select>
+            <label>Categoria</label>
+          </div>
 
-      <div class="col s6">
-        <a class="waves-effect waves-teal btn-flat">Meus os Posts</a>
+          <div class="input-field col s6">
+            <select>
+              <option value="" disabled selected>Choose your option</option>
+              <option value="1">Option 1</option>
+              <option value="2">Option 2</option>
+              <option value="3">Option 3</option>
+            </select>
+            <label>Status</label>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-  <!-- END Sub Menu 2 -->
-  <div class="container center">
-    <table class="striped centered responsive-table">
-      <thead>
-        <tr>
-          <th>Título</th>
-          <th>Categoria</th>
-          <th>Status</th>
-          <th>Alterar</th>
-        </tr>
-      </thead>
+    <!-- END Filtros -->
 
-      <tbody>
-        <tr>
-          <td>Alvin</td>
-          <td>Eclair</td>
-          <td>$0.87</td>
-          <td><i class="material-icons">create</i></td>
-        </tr>
-        <tr>
-          <td>Alan</td>
-          <td>Jellybean</td>
-          <td>$3.76</td>
-          <td><i class="material-icons">create</i></td>
-        </tr>
-        <tr>
-          <td>Jonathan</td>
-          <td>Lollipop</td>
-          <td>$7.00</td>
-          <td><i class="material-icons">create</i></td>
-        </tr>
-      </tbody>
-    </table>
-  </div>  
-  <!-- END Tabela de Posts -->
+    <!-- Tabela de Posts -->
+    <!-- Sub Menu 2 -->
+    <div class="container center light blue dash-sub">
+      <div class="row">
+        <div class="col s6 selected-sub">
+          <a class="waves-effect waves-teal btn-flat">Todos os Posts</a>
+        </div>
+
+        <div class="col s6">
+          <a class="waves-effect waves-teal btn-flat">Meus os Posts</a>
+        </div>
+      </div>
+    </div>
+    <!-- END Sub Menu 2 -->
+    <div class="container center">
+      <table class="striped centered responsive-table">
+        <thead>
+          <tr>
+            <th>Título</th>
+            <th>Categoria</th>
+            <th>Status</th>
+            <th>Alterar</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Alvin</td>
+            <td>Eclair</td>
+            <td>Online</td>
+            <td><a href="#!"><i class="material-icons">create</i></a></td>
+          </tr>
+          <tr>
+            <td>Alan</td>
+            <td>Jellybean</td>
+            <td>Processando</td>
+            <td><a href="#!"><i class="material-icons">create</i></a></td>
+          </tr>
+          <tr>
+            <td>Jonathan</td>
+            <td>Lollipop</td>
+            <td>Processando</td>
+            <td><a href="#!"><i class="material-icons">create</i></a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>  
+    <!-- END Tabela de Posts -->
+  </div>
+  <!-- END Conteudo -->
 
   <!-- Footer -->
   <footer class="page-footer  grey darken-2">
