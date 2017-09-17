@@ -1,3 +1,10 @@
+<%-- 
+    Document   : index
+    Created on : Sep 16, 2017, 10:23:32 PM
+    Author     : fabiomarquesim
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -19,30 +26,7 @@
 
 <body class="index-bg">
   <!-- Menu -->
-  <nav class="menu-index transparent-object" role="navigation">
-    <div class="nav-wrapper">
-      <a href="#!" class="brand-logo center"><img class="logo-menu" src="images/logo_munka_branca.png" alt="Munka Logo"></a>
-      <a href="#" data-activates="mobile-menu" class="button-collapse">
-        <i class="material-icons">menu</i>
-      </a>
-      <div class="container">
-        <ul id="nav-mobile" class="left hide-on-med-and-down">
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="posts.html">Posts</a></li>
-        </ul>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a class="modal-trigger" data-target="modal1" href="#modal1">Login</a></li>
-          <li><a href="cadastro.html">Cadastro</a></li>
-        </ul>
-        <ul class="side-nav" id="mobile-menu">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="posts.html">Posts</a></li>
-          <li><a href="login.html">Login</a></li>
-          <li><a href="cadastro.html">Cadastro</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+  <%@include file="menu.jspf" %>
   <!-- End Menu -->
 
   <!-- Modal Login -->
@@ -197,30 +181,7 @@
   <!-- END Conteudo -->
 
   <!-- Footer -->
-  <footer class="page-footer  grey darken-2">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Munka</h5>
-        </div>
-        <div class="col l4 offset-l2 s12">
-          <ul>
-            <li><a class="grey-text text-lighten-3" href="#!">Privacidade</a></li>
-            <li><a class="grey-text text-lighten-3" href="#!">Termos de Uso</a></li>
-            <li><a class="grey-text text-lighten-3" href="#!">Newsletter</a></li>
-            <li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
-            <li><a class="grey-text text-lighten-3" href="#!">Twitter</a></li>
-            <li><a class="grey-text text-lighten-3" href="#!">Instagram</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="footer-copyright">
-      <div class="container">
-        © 2017 Munka Corporation All Rights Reserved
-      </div>
-    </div>
-  </footer>
+  <%@include file="footer.jspf" %>
   <!-- END Footer -->
 
   <!--Import jQuery before materialize.js-->

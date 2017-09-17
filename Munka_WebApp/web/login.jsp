@@ -1,3 +1,10 @@
+<%-- 
+    Document   : login
+    Created on : Sep 16, 2017, 10:21:30 PM
+    Author     : fabiomarquesim
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="pt-br" class="login-bg">
 
