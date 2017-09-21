@@ -46,8 +46,24 @@ html {
 
 /* Banner */
 .banner-row {
-  height: 250px;
+  height: 450px;
   color: #FFF;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  background : -moz-linear-gradient(50% 0% -90deg,rgba(237, 140, 173, 1) 0%,rgba(222, 132, 170, 1) 3.32%,rgba(195, 117, 164, 1) 10.36%,rgba(174, 106, 159, 1) 18.07%,rgba(159, 98, 156, 1) 26.68%,rgba(151, 93, 154, 1) 36.93%,rgba(148, 92, 153, 1) 53.01%,rgba(85, 77, 140, 1) 100%);
+  background : -webkit-linear-gradient(-90deg, rgba(237, 140, 173, 1) 0%, rgba(222, 132, 170, 1) 3.32%, rgba(195, 117, 164, 1) 10.36%, rgba(174, 106, 159, 1) 18.07%, rgba(159, 98, 156, 1) 26.68%, rgba(151, 93, 154, 1) 36.93%, rgba(148, 92, 153, 1) 53.01%, rgba(85, 77, 140, 1) 100%);
+  background : -webkit-gradient(linear,50% 0% ,50% 100% ,color-stop(0,rgba(237, 140, 173, 1) ),color-stop(0.0332,rgba(222, 132, 170, 1) ),color-stop(0.1036,rgba(195, 117, 164, 1) ),color-stop(0.1807,rgba(174, 106, 159, 1) ),color-stop(0.2668,rgba(159, 98, 156, 1) ),color-stop(0.3693,rgba(151, 93, 154, 1) ),color-stop(0.5301,rgba(148, 92, 153, 1) ),color-stop(1,rgba(85, 77, 140, 1) ));
+  background : -o-linear-gradient(-90deg, rgba(237, 140, 173, 1) 0%, rgba(222, 132, 170, 1) 3.32%, rgba(195, 117, 164, 1) 10.36%, rgba(174, 106, 159, 1) 18.07%, rgba(159, 98, 156, 1) 26.68%, rgba(151, 93, 154, 1) 36.93%, rgba(148, 92, 153, 1) 53.01%, rgba(85, 77, 140, 1) 100%);
+  background : -ms-linear-gradient(-90deg, rgba(237, 140, 173, 1) 0%, rgba(222, 132, 170, 1) 3.32%, rgba(195, 117, 164, 1) 10.36%, rgba(174, 106, 159, 1) 18.07%, rgba(159, 98, 156, 1) 26.68%, rgba(151, 93, 154, 1) 36.93%, rgba(148, 92, 153, 1) 53.01%, rgba(85, 77, 140, 1) 100%);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ED8CAD', endColorstr='#554D8C' ,GradientType=0)";
+  background : linear-gradient(180deg, rgba(237, 140, 173, 1) 0%, rgba(222, 132, 170, 1) 3.32%, rgba(195, 117, 164, 1) 10.36%, rgba(174, 106, 159, 1) 18.07%, rgba(159, 98, 156, 1) 26.68%, rgba(151, 93, 154, 1) 36.93%, rgba(148, 92, 153, 1) 53.01%, rgba(85, 77, 140, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ED8CAD',endColorstr='#554D8C' , GradientType=0);
+}
+
+.central {
+    margin: 200px 0 0 0;
 }
 /* FIM Banner */
 
@@ -55,6 +71,7 @@ html {
 .sobre-row {
   height: 250px;
   color: #FFF;
+  background-color: #554D8C;
 }
 /* Fim Sobre */
 

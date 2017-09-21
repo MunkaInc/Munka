@@ -39,7 +39,7 @@
         </div>
 
         <div class="col s6">
-          <a href="dash-adm2.html" class="waves-effect waves-teal btn-flat">Analytics</a>
+          <a href="dash-adm2.jsp" class="waves-effect waves-teal btn-flat">Analytics</a>
         </div>
       </div>
     </div>

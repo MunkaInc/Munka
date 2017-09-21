@@ -35,7 +35,7 @@
 		<div class="container center light blue dash-sub">
 			<div class="row">
 				<div class="col s6">
-					<a href="dash-adm.html" class="waves-effect waves-teal btn-flat">Posts</a>
+					<a href="dash-adm.jsp" class="waves-effect waves-teal btn-flat">Posts</a>
 				</div>
 
 				<div class="col s6 selected-sub">
