@@ -17,12 +17,12 @@ import java.util.logging.Logger;
  */
 public class SingleConnection {
     //Parametros de conexao
-    public static final String driver = "org.apache.derby.jdbc.EmbeddedDriver";
+    public static final String driver = "com.mysql.jdbc.Driver";
     private static final String bancoNome = "MunkaDB";
     private static final String usuario = "admMunka";
     private static final String senha = "123";
-    private static final String protocolo = "jdbc:derby:";
-    private static final String host = "//localhost:1527/";
+    private static final String protocolo = "jdbc:mysql:";
+    private static final String host = "//localhost:3306/";
     
     private static SingleConnection instance = null;
     private Connection connection;
