@@ -5,11 +5,13 @@
  */
 package com.br.munka.controller;
 
+import javax.servlet.annotation.WebServlet;
+import com.br.munka.controller.command.Command;
 import java.io.IOException;
 import java.io.PrintWriter;
-import javax.servlet.RequestDispatcher;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -35,10 +37,16 @@ public class Controller extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
-            /*if(command.startsWith("test")){
-                RequestDispatcher rd = request.getRequestDispatcher("/TesteBusiness");
-                rd.forward(request, response);
-            } */       
+            String commandstr = request.getParameter("command").split("\\.")[0];
+            
+            try {
+                Command command = (Command)Class.forName("com.br.munka.controller.command."+commandstr+"Command").newInstance();
+                command.init(request, response);
+                command.execute();
+                response.sendRedirect(command.getResponsePage());
+            } catch (InstantiationException | IllegalAccessException | ClassNotFoundException ex) {
+                Logger.getLogger(Controller.class.getName()).log(Level.SEVERE, null, ex);
+            }
         }
     }
 

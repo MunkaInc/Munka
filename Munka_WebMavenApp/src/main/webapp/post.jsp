@@ -4,6 +4,7 @@
     Author     : fabiomarquesim
 --%>
 
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -25,6 +26,9 @@
 </head>
 
 <body>
+    <c:if test="${user==null}">     
+            <c:redirect url="index.jsp"></c:redirect>
+    </c:if>
 	<!-- Menu -->
 	<%@include file="menu.jspf" %>
 	<!-- End Menu -->
