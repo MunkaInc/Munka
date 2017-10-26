@@ -1,0 +1,162 @@
+/* Estilo Proprietario */
+@charset "utf-8";
+/* Todas as Paginas*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+html {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/* Menu */
+.logo-menu {
+  width: 150px;
+  padding-top: 0.6rem;
+}
+
+.menu-all {
+  background-color: gray;
+}
+
+.box-all {
+  display: inline-block; 
+  padding: 32px 48px 0px 48px; 
+  width: 40rem;
+  margin: 3.5rem;
+}
+/* FIM Menu */
+/* FIM Todas as Paginas*/
+
+/* Index */
+/* Toda Pagina */
+.transparent-object {
+  background-color: rgba(0,0,0,0);
+}
+
+.index-bg {
+  background-color: #5D4B82;
+}
+/* FIM Toda Pagina */
+
+/* Menu Index */
+.menu-index {
+  box-shadow: none;
+  color: gray;
+}
+/* FIM Menu Index */
+
+/* Banner */
+.banner-row {
+  height: 450px;
+  color: #FFF;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  background : -moz-linear-gradient(50% 0% -90deg,rgba(237, 140, 173, 1) 0%,rgba(222, 132, 170, 1) 3.32%,rgba(195, 117, 164, 1) 10.36%,rgba(174, 106, 159, 1) 18.07%,rgba(159, 98, 156, 1) 26.68%,rgba(151, 93, 154, 1) 36.93%,rgba(148, 92, 153, 1) 53.01%,rgba(85, 77, 140, 1) 100%);
+  background : -webkit-linear-gradient(-90deg, rgba(237, 140, 173, 1) 0%, rgba(222, 132, 170, 1) 3.32%, rgba(195, 117, 164, 1) 10.36%, rgba(174, 106, 159, 1) 18.07%, rgba(159, 98, 156, 1) 26.68%, rgba(151, 93, 154, 1) 36.93%, rgba(148, 92, 153, 1) 53.01%, rgba(85, 77, 140, 1) 100%);
+  background : -webkit-gradient(linear,50% 0% ,50% 100% ,color-stop(0,rgba(237, 140, 173, 1) ),color-stop(0.0332,rgba(222, 132, 170, 1) ),color-stop(0.1036,rgba(195, 117, 164, 1) ),color-stop(0.1807,rgba(174, 106, 159, 1) ),color-stop(0.2668,rgba(159, 98, 156, 1) ),color-stop(0.3693,rgba(151, 93, 154, 1) ),color-stop(0.5301,rgba(148, 92, 153, 1) ),color-stop(1,rgba(85, 77, 140, 1) ));
+  background : -o-linear-gradient(-90deg, rgba(237, 140, 173, 1) 0%, rgba(222, 132, 170, 1) 3.32%, rgba(195, 117, 164, 1) 10.36%, rgba(174, 106, 159, 1) 18.07%, rgba(159, 98, 156, 1) 26.68%, rgba(151, 93, 154, 1) 36.93%, rgba(148, 92, 153, 1) 53.01%, rgba(85, 77, 140, 1) 100%);
+  background : -ms-linear-gradient(-90deg, rgba(237, 140, 173, 1) 0%, rgba(222, 132, 170, 1) 3.32%, rgba(195, 117, 164, 1) 10.36%, rgba(174, 106, 159, 1) 18.07%, rgba(159, 98, 156, 1) 26.68%, rgba(151, 93, 154, 1) 36.93%, rgba(148, 92, 153, 1) 53.01%, rgba(85, 77, 140, 1) 100%);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ED8CAD', endColorstr='#554D8C' ,GradientType=0)";
+  background : linear-gradient(180deg, rgba(237, 140, 173, 1) 0%, rgba(222, 132, 170, 1) 3.32%, rgba(195, 117, 164, 1) 10.36%, rgba(174, 106, 159, 1) 18.07%, rgba(159, 98, 156, 1) 26.68%, rgba(151, 93, 154, 1) 36.93%, rgba(148, 92, 153, 1) 53.01%, rgba(85, 77, 140, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ED8CAD',endColorstr='#554D8C' , GradientType=0);
+}
+
+.central {
+    margin: 200px 0 0 0;
+}
+/* FIM Banner */
+
+/* Sobre */
+.sobre-row {
+  height: 250px;
+  color: #FFF;
+  background-color: #554D8C;
+}
+/* Fim Sobre */
+
+/* Servico */
+.servico-bg {
+  background-color: #FAF2EC;
+  padding: 3rem;
+}
+/* FIM Servico */
+
+/* Cadastrar Row */
+.cadastrar-bg {
+  background-image: url("http://www.duoblindagens.com.br/wp-content/uploads/2014/12/cityscapes-night_00241654.jpg");
+  height: 300px;
+  margin-top: -1.3rem;
+}
+
+.cadastrar-btn {
+  border: 1px solid snow;
+  background-color: rgba(0,0,0,0);
+  color: snow;
+  font-family: Roboto;
+  margin-top: 6.5rem;
+}
+
+.cadastrar-btn:hover {
+  background-color: grey;
+}
+/* FIM Cadastrar Row */
+/* Fim Index */
+
+/* Perfil */
+
+.img-perfil {
+  width: 150px;
+}
+
+.nome-usuario {
+  font-weight: 100;
+}
+
+/* TODO: RESPONSIVE BOX */
+/* FIM Perfil*/
+
+/* Login */
+.logo-login {
+  width: 325px;
+}
+
+.box-login {
+  width: 30rem;
+  background-color: #FFF;
+}
+
+.remember-pass {
+  float: left;
+}
+
+.login-bg {
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  background : -moz-linear-gradient(50% 100% 90deg,rgba(237, 140, 173, 1) 0%,rgba(222, 132, 170, 1) 3.32%,rgba(195, 117, 164, 1) 10.36%,rgba(174, 106, 159, 1) 18.07%,rgba(159, 98, 156, 1) 26.68%,rgba(151, 93, 154, 1) 36.93%,rgba(148, 92, 153, 1) 53.01%,rgba(85, 77, 140, 1) 100%);
+  background : -webkit-linear-gradient(90deg, rgba(237, 140, 173, 1) 0%, rgba(222, 132, 170, 1) 3.32%, rgba(195, 117, 164, 1) 10.36%, rgba(174, 106, 159, 1) 18.07%, rgba(159, 98, 156, 1) 26.68%, rgba(151, 93, 154, 1) 36.93%, rgba(148, 92, 153, 1) 53.01%, rgba(85, 77, 140, 1) 100%);
+  background : -webkit-gradient(linear,50% 100% ,50% 0% ,color-stop(0,rgba(237, 140, 173, 1) ),color-stop(0.0332,rgba(222, 132, 170, 1) ),color-stop(0.1036,rgba(195, 117, 164, 1) ),color-stop(0.1807,rgba(174, 106, 159, 1) ),color-stop(0.2668,rgba(159, 98, 156, 1) ),color-stop(0.3693,rgba(151, 93, 154, 1) ),color-stop(0.5301,rgba(148, 92, 153, 1) ),color-stop(1,rgba(85, 77, 140, 1) ));
+  background : -o-linear-gradient(90deg, rgba(237, 140, 173, 1) 0%, rgba(222, 132, 170, 1) 3.32%, rgba(195, 117, 164, 1) 10.36%, rgba(174, 106, 159, 1) 18.07%, rgba(159, 98, 156, 1) 26.68%, rgba(151, 93, 154, 1) 36.93%, rgba(148, 92, 153, 1) 53.01%, rgba(85, 77, 140, 1) 100%);
+  background : -ms-linear-gradient(90deg, rgba(237, 140, 173, 1) 0%, rgba(222, 132, 170, 1) 3.32%, rgba(195, 117, 164, 1) 10.36%, rgba(174, 106, 159, 1) 18.07%, rgba(159, 98, 156, 1) 26.68%, rgba(151, 93, 154, 1) 36.93%, rgba(148, 92, 153, 1) 53.01%, rgba(85, 77, 140, 1) 100%);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ED8CAD', endColorstr='#554D8C' ,GradientType=0)";
+  background : linear-gradient(0deg, rgba(237, 140, 173, 1) 0%, rgba(222, 132, 170, 1) 3.32%, rgba(195, 117, 164, 1) 10.36%, rgba(174, 106, 159, 1) 18.07%, rgba(159, 98, 156, 1) 26.68%, rgba(151, 93, 154, 1) 36.93%, rgba(148, 92, 153, 1) 53.01%, rgba(85, 77, 140, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#554D8C',endColorstr='#ED8CAD' , GradientType=0);
+}
+/* FIM Login */
+
+/* Dashboard */
+.dash-table {
+  margin: 3rem 0 3rem 0;
+}
+
+.selected-sub {
+  background-color: gray;
+}
+
+.dash-sub {
+  color: #FFF;
+}
+/* FIM Dashboard */
